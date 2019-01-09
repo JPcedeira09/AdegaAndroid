@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "328388448484",
+    "firebase_url": "https://adega-fb339.firebaseio.com",
+    "project_id": "adega-fb339",
+    "storage_bucket": "adega-fb339.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328388448484:android:7efc367889c09f88",
+        "android_client_info": {
+          "package_name": "techold.com.adegaandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328388448484-opq2bc1elhi31cjhhd9kkurvu1789mmd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "techold.com.adegaandroid",
+            "certificate_hash": "5fd72bebe150d93887c705bf62b2c63ab240efbe"
+          }
+        },
+        {
+          "client_id": "328388448484-q8dd58itemm12er4bths3kmp4grg76em.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIdrTRxvwH8xKylqVs3EmUDdj1EnmHpZw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328388448484-q8dd58itemm12er4bths3kmp4grg76em.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "328388448484-edkscm3rsr8ldgksv2fbm482sqh48ev3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.techlold.Adega"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
