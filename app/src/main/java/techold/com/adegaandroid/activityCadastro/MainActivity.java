@@ -20,8 +20,9 @@ import techold.com.adegaandroid.model.Usuario;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void btConcordar(View x){
+    public void btConcordar(){
         startActivity(new Intent(this, SucessoActivity.class));
+        finish();
     }
     private EditText campoEmail, campoSenha;
     private Button botaoCadastrar;
@@ -86,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this,
                             "Sucesso ao cadastrar o usuário!",
                             Toast.LENGTH_SHORT).show();
-
+                            btConcordar();
 
             }else{
                     Toast.makeText(MainActivity.this,
