@@ -16,7 +16,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import techold.com.adegaandroid.Config.ConfiguraçaoFirebase;
 import techold.com.adegaandroid.model.Usuario;
 
-public class MainActivity extends AppCompatActivity {
+public class Login extends AppCompatActivity {
     private EditText CampoEmail, CampoSenha;
     private Button botaoEnviar, botaoCadastrar;
     private Usuario usuario;
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.Login_main);
 
         CampoEmail = findViewById(R.id.editEmail);
         CampoSenha = findViewById(R.id.editSenha);
@@ -46,10 +46,10 @@ public class MainActivity extends AppCompatActivity {
                          usuario.setSenha(Senha);
 
                         }else{
-                        Toast.makeText(MainActivity.this,"Preencha a Senha" ,Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Login.this,"Preencha a Senha" ,Toast.LENGTH_SHORT).show();
                     }
                 }else {
-                    Toast.makeText(MainActivity.this,"Preencha o Email" ,Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Login.this,"Preencha o Email" ,Toast.LENGTH_SHORT).show();
 
                 }
             }
@@ -70,9 +70,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
           public void onComplete(@NonNull Task<AuthResult> task) {
                   if(task.isSuccessful() ){
-        Toast.makeText(MainActivity.this,"Sucesso ao fazer o login!" ,Toast.LENGTH_SHORT).show();
+        Toast.makeText(Login.this,"Sucesso ao fazer o login!" ,Toast.LENGTH_SHORT).show();
         } else{
-        Toast.makeText(MainActivity.this,"Erro ao fazer o login!" ,Toast.LENGTH_SHORT).show();
+        Toast.makeText(Login.this,"Erro ao fazer o login!" ,Toast.LENGTH_SHORT).show();
 
         }
 
