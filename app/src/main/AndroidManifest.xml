@@ -9,14 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".Login">
+=======
+        <activity android:name=".activityCadastro.MainActivity">
+>>>>>>> b05c3d2cd07f8f17a66bacaa1be4564fb1c6072d
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".Pedidos"></activity>
+=======
+        <activity android:name=".activityCadastro.SucessoActivity"></activity>
+>>>>>>> b05c3d2cd07f8f17a66bacaa1be4564fb1c6072d
     </application>
 
 </manifest>

@@ -1,13 +1,15 @@
 package techold.com.adegaandroid.model;
 
 public class Usuario {
-    private String  email;
+
+    private String email;
+    private String senha;
+
+    public Usuario() {
+    }
 
     public String getEmail() {
         return email;
-    }
-
-    public Usuario() {
     }
 
     public void setEmail(String email) {
@@ -21,6 +23,4 @@ public class Usuario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
-
-    private String senha;
 }

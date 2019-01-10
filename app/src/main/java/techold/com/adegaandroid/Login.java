@@ -1,30 +1,23 @@
 package techold.com.adegaandroid;
 
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
-
-import techold.com.adegaandroid.Config.ConfiguraçaoFirebase;
-import techold.com.adegaandroid.model.Usuario;
-
+<<<<<<< HEAD:app/src/main/java/techold/com/adegaandroid/Login.java
 public class Login extends AppCompatActivity {
     private EditText CampoEmail, CampoSenha;
     private Button botaoEnviar, botaoCadastrar;
     private Usuario usuario;
     private FirebaseAuth Autentificaçao;
+=======
+public class MainActivity extends AppCompatActivity {
+>>>>>>> b05c3d2cd07f8f17a66bacaa1be4564fb1c6072d:app/src/main/java/techold/com/adegaandroid/MainActivity.java
 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD:app/src/main/java/techold/com/adegaandroid/Login.java
         setContentView(R.layout.Login_main);
 
         CampoEmail = findViewById(R.id.editEmail);
@@ -80,3 +73,8 @@ public class Login extends AppCompatActivity {
         });
   }
 }
+=======
+        setContentView(R.layout.activity_main);
+    }
+}
+>>>>>>> b05c3d2cd07f8f17a66bacaa1be4564fb1c6072d:app/src/main/java/techold/com/adegaandroid/MainActivity.java
